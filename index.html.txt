@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youssef Salah Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="your-photo.jpg" alt="Youssef Salah" class="profile-pic">
+            <div class="header-text">
+                <h1>يوسف صلاح محمد</h1>
+                <p>Cybersecurity & SOC Analyst</p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">عنّي</a></li>
+            <li><a href="#skills">المهارات</a></li>
+            <li><a href="#projects">المشاريع</a></li>
+            <li><a href="#contact">تواصل معي</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>عنّي</h2>
+        <p>مهندس أمن سيبراني بخبرة +3 سنوات في تحليل الشبكات، الاستجابة للحوادث، وحماية البنية التحتية الرقمية.</p>
+    </section>
+
+    <section id="skills">
+        <h2>المهارات</h2>
+        <div class="skill">
+            <p>تحليل الشبكات</p>
+            <div class="skill-bar"><div style="width:90%"></div></div>
+        </div>
+        <div class="skill">
+            <p>Log Analysis</p>
+            <div class="skill-bar"><div style="width:85%"></div></div>
+        </div>
+        <div class="skill">
+            <p>Incident Response</p>
+            <div class="skill-bar"><div style="width:80%"></div></div>
+        </div>
+        <div class="skill">
+            <p>Firewall & Security Tools</p>
+            <div class="skill-bar"><div style="width:75%"></div></div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>المشاريع</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>SOC Dashboard</h3>
+                <p>لوحة تحكم لمراقبة وتحليل النشاط الشبكي.</p>
+            </div>
+            <div class="project-card">
+                <h3>Network Analysis Tool</h3>
+                <p>أداة لتحليل سجلات الشبكة واكتشاف التهديدات.</p>
+            </div>
+            <!-- ممكن تضيف مشاريع أكتر -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>تواصل معي</h2>
+        <p>Email: youssef@example.com</p>
+        <p>LinkedIn: <a href="#">linkedin.com/in/youssif</a></p>
+        <p>GitHub: <a href="#">github.com/YoussefSalah</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 يوسف صلاح محمد</p>
+    </footer>
+</body>
+</html>
